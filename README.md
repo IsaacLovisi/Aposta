@@ -5,6 +5,7 @@ Bem-vindo ao Sistema de Apostas em Kivy! Este é um aplicativo de desktop desenv
 ![Kivy](https://img.shields.io/badge/Kivy-Python%20GUI-informational?style=flat&logo=kivy&logoColor=white&color=black)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-SQL%20Database-blue?style=flat&logo=sqlite&logoColor=white)
+
 ## 📝 Descrição
 
 Este projeto é uma plataforma simples para simular um ambiente de apostas. Usuários podem se registrar, adicionar saldo à sua conta, visualizar apostas disponíveis e criar novas apostas. Administradores têm a capacidade de gerenciar o sistema, incluindo a promoção de usuários a administradores. Os dados são armazenados localmente usando SQLite.
@@ -37,10 +38,11 @@ Este projeto é uma plataforma simples para simular um ambiente de apostas. Usu�
 _(Adicione aqui screenshots do seu aplicativo quando estiverem prontas)_
 
 * **Tela de Login:**
-    * **Tela de Menu Principal:**
-    * **Tela de Administração:**
-    * **Tela de Apostas:**
-    ## 🛠️ Tecnologias Utilizadas
+* **Tela de Menu Principal:**
+* **Tela de Administração:**
+* **Tela de Apostas:**
+
+## 🛠️ Tecnologias Utilizadas
 
 * **Python 3.x:** Linguagem principal de desenvolvimento.
 * **Kivy:** Biblioteca open-source Python para criação de interfaces de usuário com NUI (Natural User Interface).
@@ -55,37 +57,53 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 ## 🚀 Instalação e Execução
 
-1.  **Clone o repositório:**
+1. **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone https://github.com/IsaacLovisi/ApostaTwitch.git
+    cd ApostaTwitch
     ```
 
-2.  **(Opcional, mas recomendado) Crie e ative um ambiente virtual:**
+2. **(Opcional, mas recomendado) Crie e ative um ambiente virtual:**
     ```bash
     python -m venv venv
     # No Windows:
-    # venv\Scripts\activate
+    venv\Scripts\activate
     # No macOS/Linux:
-    # source venv/bin/activate
+    source venv/bin/activate
     ```
 
-3.  **Instale as dependências (principalmente Kivy):**
+3. **Instale as dependências (principalmente Kivy):**
     ```bash
     python -m pip install "kivy[base]" kivy_examples
     # Ou, se você criar um arquivo requirements.txt:
     # pip install -r requirements.txt
     ```
+
     *Nota: Pode haver dependências adicionais do Kivy dependendo do seu sistema operacional. Consulte a [documentação oficial do Kivy](https://kivy.org/doc/stable/gettingstarted/installation.html) para mais detalhes.*
 
-4.  **Execute a aplicação:**
+4. **Execute a aplicação:**
     ```bash
     python main_kivy_app.py
     ```
+
     Na primeira execução, um usuário administrador padrão chamado `root` será criado. Você pode usar este usuário para acessar o painel de administração e promover outros usuários.
 
 ## 📁 Estrutura do Projeto
-<pre> ``` . ├── main_kivy_app.py # Ponto de entrada principal da aplicação ├── database/ │ └── db.py # Configuração do banco de dados e criação de tabelas ├── models/ │ ├── usuario.py # Modelo de dados e lógica para Usuário │ └── aposta.py # Modelo de dados e lógica para Aposta └── ui/ ├── login_screen.py # Lógica e layout da Tela de Login ├── menu_screen_kivy.py # Lógica e layout da Tela Principal do Usuário ├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador └── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas ``` </pre>
+
+```text
+.
+├── main_kivy_app.py         # Ponto de entrada principal da aplicação
+├── database/
+│   └── db.py                # Configuração do banco de dados e criação de tabelas
+├── models/
+│   ├── usuario.py           # Modelo de dados e lógica para Usuário
+│   └── aposta.py            # Modelo de dados e lógica para Aposta
+└── ui/
+    ├── login_screen.py      # Lógica e layout da Tela de Login
+    ├── menu_screen_kivy.py  # Lógica e layout da Tela Principal do Usuário
+    ├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador
+    └── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas
+
 
 ## 🎯 Próximos Passos (To-Do)
 
@@ -98,21 +116,4 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 * [ ] Melhorar a interface do usuário (UI/UX) e adicionar mais feedback visual.
 * [ ] Adicionar testes unitários e de integração.
 
-## 🤝 Contribuições
 
-Contribuições são bem-vindas! Se você tem sugestões para melhorar este projeto, sinta-se à vontade para criar um _fork_ do repositório, fazer suas alterações e abrir um _Pull Request_. Você também pode abrir uma _Issue_ para discutir ideias ou reportar bugs.
-
-1.  Faça um _Fork_ do projeto.
-2.  Crie uma _Branch_ para sua feature (`git checkout -b feature/MinhaNovaFeature`).
-3.  Faça o _Commit_ das suas alterações (`git commit -m 'Adiciona MinhaNovaFeature'`).
-4.  Faça o _Push_ para a Branch (`git push origin feature/MinhaNovaFeature`).
-5.  Abra um _Pull Request_.
-
-## 📄 Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-*(Você precisará adicionar um arquivo LICENSE ao seu repositório. A licença MIT é uma boa escolha para projetos open-source, mas sinta-se à vontade para escolher outra que se adeque melhor.)*
-
----
-
-Feito com ❤️ por [Seu Nome/Apelido Aqui]
