@@ -95,7 +95,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
     ├── menu_screen_kivy.py  # Lógica e layout da Tela Principal do Usuário
     ├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador
     └── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas
-
+```
 
 ## 🎯 Próximos Passos (To-Do)
 
