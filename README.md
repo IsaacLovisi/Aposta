@@ -33,14 +33,6 @@ Este projeto é uma plataforma simples para simular um ambiente de apostas. Usu�
 * **Persistência de Dados:**
     * Uso do SQLite para armazenar informações de usuários, apostas e saldos.
 
-## 🖼️ Telas (Preview)
-
-_(Adicione aqui screenshots do seu aplicativo quando estiverem prontas)_
-
-* **Tela de Login:**
-* **Tela de Menu Principal:**
-* **Tela de Administração:**
-* **Tela de Apostas:**
 
 ## 🛠️ Tecnologias Utilizadas
 
