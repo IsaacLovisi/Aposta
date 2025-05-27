@@ -85,3 +85,45 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
     Na primeira execução, um usuário administrador padrão chamado `root` será criado. Você pode usar este usuário para acessar o painel de administração e promover outros usuários.
 
 ## 📁 Estrutura do Projeto
+.
+├── main_kivy_app.py     # Ponto de entrada principal da aplicação
+├── database/
+│   └── db.py            # Configuração do banco de dados e criação de tabelas
+├── models/
+│   ├── usuario.py       # Modelo de dados e lógica para Usuário
+│   └── aposta.py        # Modelo de dados e lógica para Aposta
+└── ui/
+├── login_screen.py      # Lógica e layout da Tela de Login
+├── menu_screen_kivy.py  # Lógica e layout da Tela Principal do Usuário
+├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador
+└── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas
+
+## 🎯 Próximos Passos (To-Do)
+
+* [ ] Implementar a funcionalidade de "fazer uma aposta" (usuário seleciona uma opção e investe um valor).
+* [ ] Desenvolver o mecanismo de encerramento de apostas (definir opção vencedora).
+* [ ] Calcular e distribuir os ganhos aos usuários vencedores.
+* [ ] Completar o CRUD (Criar, Ler, Atualizar, Deletar) de usuários e apostas no painel administrativo.
+* [ ] Adicionar um histórico de apostas para os usuários.
+* [ ] Permitir que administradores cancelem apostas ou editem suas opções.
+* [ ] Melhorar a interface do usuário (UI/UX) e adicionar mais feedback visual.
+* [ ] Adicionar testes unitários e de integração.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você tem sugestões para melhorar este projeto, sinta-se à vontade para criar um _fork_ do repositório, fazer suas alterações e abrir um _Pull Request_. Você também pode abrir uma _Issue_ para discutir ideias ou reportar bugs.
+
+1.  Faça um _Fork_ do projeto.
+2.  Crie uma _Branch_ para sua feature (`git checkout -b feature/MinhaNovaFeature`).
+3.  Faça o _Commit_ das suas alterações (`git commit -m 'Adiciona MinhaNovaFeature'`).
+4.  Faça o _Push_ para a Branch (`git push origin feature/MinhaNovaFeature`).
+5.  Abra um _Pull Request_.
+
+## 📄 Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+*(Você precisará adicionar um arquivo LICENSE ao seu repositório. A licença MIT é uma boa escolha para projetos open-source, mas sinta-se à vontade para escolher outra que se adeque melhor.)*
+
+---
+
+Feito com ❤️ por [Seu Nome/Apelido Aqui]
