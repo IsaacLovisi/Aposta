@@ -85,18 +85,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
     Na primeira execução, um usuário administrador padrão chamado `root` será criado. Você pode usar este usuário para acessar o painel de administração e promover outros usuários.
 
 ## 📁 Estrutura do Projeto
-.
-├── main_kivy_app.py     # Ponto de entrada principal da aplicação
-├── database/
-│   └── db.py            # Configuração do banco de dados e criação de tabelas
-├── models/
-│   ├── usuario.py       # Modelo de dados e lógica para Usuário
-│   └── aposta.py        # Modelo de dados e lógica para Aposta
-└── ui/
-├── login_screen.py      # Lógica e layout da Tela de Login
-├── menu_screen_kivy.py  # Lógica e layout da Tela Principal do Usuário
-├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador
-└── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas
+<pre> ``` . ├── main_kivy_app.py # Ponto de entrada principal da aplicação ├── database/ │ └── db.py # Configuração do banco de dados e criação de tabelas ├── models/ │ ├── usuario.py # Modelo de dados e lógica para Usuário │ └── aposta.py # Modelo de dados e lógica para Aposta └── ui/ ├── login_screen.py # Lógica e layout da Tela de Login ├── menu_screen_kivy.py # Lógica e layout da Tela Principal do Usuário ├── admin_screen_kivy.py # Lógica e layout da Tela do Administrador └── aposta_screen_kivy.py# Lógica e layout da Tela para criar/visualizar Apostas ``` </pre>
 
 ## 🎯 Próximos Passos (To-Do)
 
